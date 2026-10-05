@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- saved from url=(0037)https://litter.catbox.moe/mhyun1.html -->
-<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script crossorigin="anonymous" src="./index_files/tag_phono.js.Без названия" type="text/javascript" charset="utf-8" async=""></script>
-  
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Проблемные облигации ОАО «Торговый дом «Мин Туркун» — информация для облигационеров</title>
   <meta name="description" content="Информационный сайт о проблемных облигациях ОАО ТД «Мин Туркун». История 4 выпусков, калькулятор процентов, собрания облигационеров, решения Госфиннадзора и КФБ.">
   <!-- Yandex.Metrika counter -->
-  <script async="" src="./index_files/tag.js.Без названия"></script><script type="text/javascript">
+  <script type="text/javascript">
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();
     for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
@@ -224,6 +224,26 @@
       section { padding: 1.25rem; }
       .form-row { grid-template-columns: 1fr; }
     }
+    .doc-list { list-style: none; padding: 0; }
+    .doc-list li { margin: 0 0 0.75rem; }
+    .doc-list a {
+      display: block;
+      padding: 1rem 1.15rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 600;
+      background: #f7fafc;
+    }
+    .doc-list a:hover { background: #ebf8ff; }
+    .doc-list .meta {
+      display: block;
+      font-weight: 400;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
   </style>
 </head>
 <body>
@@ -234,9 +254,10 @@
 
   <nav>
     <ul>
-      <li><a href="#about" class="">О ситуации</a></li>
-      <li><a href="#issues" class="">4 выпуска</a></li>
-      <li><a href="#calculator" class="">Калькулятор</a></li>
+      <li><a href="#about">О ситуации</a></li>
+      <li><a href="#issues">4 выпуска</a></li>
+      <li><a href="#calculator">Калькулятор</a></li>
+      <li><a href="#documents">Документы</a></li>
       <li><a href="#meetings">Собрания</a></li>
       <li><a href="#gosfinnadzor">Госфиннадзор</a></li>
       <li><a href="#kse">КФБ</a></li>
@@ -427,6 +448,34 @@
         </div>
         <p class="form-note">Расчёт приблизительный и информационный. Фактические выплаты зависят от решений эмитента и судебных актов. Налог 10% на процентный доход по закону КР оплачивается эмитентом согласно заявлениям на собраниях.</p>
       </div>
+    </section>
+
+    <section id="documents">
+      <h2>Документы</h2>
+      <p>Нажмите на название — откроется отдельная страница с полным текстом документа.</p>
+      <ul class="doc-list">
+        <li>
+          <a href="prospekt-1.html">Проспект 1-й эмиссии именных процентных облигаций ОАО «Торговый дом «Мин Туркун»»
+            <span class="meta">Зарегистрирован 10 марта 2016 г. · 22% годовых · 36 месяцев · номинал 1 000 сом · объём 200 млн сом</span>
+          </a>
+        </li>
+        <li>
+          <a href="prospekt-2.html">Проспект 2-й эмиссии именных процентных облигаций ОАО «Торговый дом «Мин Туркун»»
+            <span class="meta">Зарегистрирован 11 мая 2017 г. · 22% годовых · 36 месяцев · 120 000 шт. · листинг Blue Chips</span>
+          </a>
+        </li>
+        <li>
+          <a href="prospekt-3.html">Проспект 3-й эмиссии именных процентных облигаций ОАО «Торговый дом «Мин Туркун»»
+            <span class="meta">17 ноября 2017 г. · 17% годовых · 42 месяца · 100 000 шт. · 100 млн сом</span>
+          </a>
+        </li>
+        <li>
+          <a href="prospekt-4.html">Проспект 4-й эмиссии именных процентных облигаций ОАО «Торговый дом «Мин Туркун»»
+            <span class="meta">Зарегистрирован 19 октября 2018 г. · KG0204038515 · 17% годовых · 42 месяца · 200 000 шт. · 200 млн сом</span>
+          </a>
+        </li>
+      </ul>
+      <p class="source">Четыре проспекта эмиссий размещены. Другие документы (решения собраний, акты Госфиннадзора) можно добавить отдельно.</p>
     </section>
 
     <section id="meetings">
